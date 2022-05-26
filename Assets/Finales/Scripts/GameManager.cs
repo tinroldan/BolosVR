@@ -5,13 +5,17 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] Transform ballSpawn;
-    void Start()
+    
+    public void CheckBola(GameObject ball)
     {
-        
+        StartCoroutine(devolverBola(ball));
     }
 
-    void Update()
+    IEnumerator devolverBola(GameObject ball)
     {
-        
+        yield return new WaitForSeconds(3f);
+        ball.transform.position=ballSpawn.transform.position;
+
     }
+
 }
