@@ -11005,6 +11005,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 883720338106885674, guid: 71fc6f8bc6839244ca08bcfe14432fa3,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.02
+      objectReference: {fileID: 0}
     - target: {fileID: 6447106879940097554, guid: 71fc6f8bc6839244ca08bcfe14432fa3,
         type: 3}
       propertyPath: m_Name
@@ -40458,7 +40463,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033813256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.39, y: 0.83, z: -8.83}
+  m_LocalPosition: {x: 21.39, y: 1.238, z: -8.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 108160001}
@@ -71033,6 +71038,7 @@ MonoBehaviour:
   - {fileID: 1824980111}
   anim: {fileID: 1737486156}
   panelPuntos: {fileID: 1957817193}
+  points: 0
 --- !u!1 &1737814158
 GameObject:
   m_ObjectHideFlags: 0
